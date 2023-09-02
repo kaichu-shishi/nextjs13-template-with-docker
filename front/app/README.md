@@ -8,6 +8,7 @@
   - または、手動でzipファイルをダウンロードして解凍する
 - ディレクトリの移動
   - `$ cd ./nextjs-app-docker`
+  - ※手動でダウンロードした場合は`$ cd ./nextjs-app-docker-main`
 - イメージビルド
   - `$ docker-compose build`
 - パッケージインストール(初回または、新たにパッケージが導入された時のみ)
