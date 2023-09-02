@@ -1,0 +1,29 @@
+# version: "3"
+# services:
+#   front:
+#     build: .
+#     tty: true
+#     ports:
+#       - "3000:3000" # 開発用
+#       - "4000:4000" # 本番用
+#     volumes:
+#       # - ./app/myapp:/app # ./app/{プロジェクト名}:/app ホストとゲストの対応関係
+#       # 左がホスト側、右がコンテナ側
+#       # コンテナ側の「/app」をホスト側の「./app/myapp」と同期させますよ、という意味
+#       - ./app/:/app
+#     working_dir: /app/myapp
+#     command: yarn dev
+
+version: "3"
+services:
+  front:
+    build:
+      context: .
+      dockerfile: ./front/Dockerfile
+    tty: true
+    ports:
+      - "3000:3000" # 開発用
+      - "4000:4000" # 本番用
+    volumes:
+      - ./front/app:/app
+    command: yarn dev
