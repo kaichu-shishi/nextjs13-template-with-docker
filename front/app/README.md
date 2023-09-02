@@ -14,3 +14,5 @@
   - `$ docker-compose run --rm front yarn install --frozen-lockfile`
 - コンテナ起動
   - `$ docker-compose up -d`
+- ブラウザで表示
+  - `http://localhost:3000`にアクセスしてNext.jsの画面が表示されたら成功です！
