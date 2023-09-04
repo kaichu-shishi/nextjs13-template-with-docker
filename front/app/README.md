@@ -17,3 +17,7 @@
   - `$ docker-compose up -d`
 - ブラウザで表示
   - `http://localhost:3000`にアクセスしてNext.jsの画面が表示されたら成功です！
+
+## 環境詳細
+- Next.js13.4.19（with TypeScript、TailwindCSS）
+- ESLintとPrettierを使用
