@@ -4,11 +4,11 @@
 - パッケージマネージャー
   - このプロジェクトはパッケージマネージャーとして「yarn」を使用しています。「yarn」をインストールしておいてください
 - リポジトリのクローン
-  - `$ git clone https://github.com/kaichu-shishi/nextjs-app-docker.git`
+  - `$ git clone https://github.com/kaichu-shishi/nextjs13-template-with-docker.git`
   - または、手動でzipファイルをダウンロードして解凍する
 - ディレクトリの移動
-  - `$ cd ./nextjs-app-docker`
-  - ※手動でダウンロードした場合は`$ cd ./nextjs-app-docker-main`
+  - `$ cd ./nextjs13-template--with-docker`
+  - ※手動でダウンロードした場合は`$ cd ./nextjs13-template-with-docker-main`
 - イメージビルド
   - `$ docker-compose build`
 - パッケージインストール(初回または、新たにパッケージが導入された時のみ)
