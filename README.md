@@ -21,3 +21,4 @@
 ## 環境詳細
 - Next.js13.4.19（with TypeScript、TailwindCSS）
 - ESLintとPrettierを使用
+  - VSCodeで開発する場合は「ESLint」と「Prettier」のプラグインを使用することを推奨します
